@@ -7,11 +7,11 @@ title: Mathemagics
 
 - [Determination of the day of the week - Wikipedia](https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week)
 - [Doomsday rule - Wikipedia](https://en.wikipedia.org/wiki/Doomsday_rule)
-- [The Doomsday Algorithm - Numberphile](https://www.youtube.com/watch?v=z2x3SSBVGJU)
+- [Numberphile video](https://www.youtube.com/watch?v=z2x3SSBVGJU)
 
 The Doomsday rule is an algorithm devised by **John Conway** to quickly calculate the weekday of any date in history. The algorithm works on the following principle:
 
-> There is a set of dates (called **doomsdays**), that for any year, all fall on the same day (called the **anchor day of the year**).
+> There is a set of dates (called **doomsdays**), that for any year, fall on the same weekday (called the **anchor day of the year**).
 
 Using the anchor, we can find out the weekday for any date using simple arithmetic.
 
@@ -39,20 +39,20 @@ For calculations, we assign an index for each weekday. Starting from Monday ($1$
 
 | Day       | Index | Mnemonic   |
 | --------- | ----- | ---------- |
-| Monday    | 1     | One-day    |
-| Tuesday   | 2     | Twos-day   |
-| Wednesday | 3     | Threes-day |
-| Thursday  | 4     | Fours-day  |
-| Friday    | 5     | Five-day   |
-| Saturday  | 6     | Sixtur-day |
-| Sunday    | 0     | None-day   |
+| Monday    | $1$   | One-day    |
+| Tuesday   | $2$   | Twos-day   |
+| Wednesday | $3$   | Threes-day |
+| Thursday  | $4$   | Fours-day  |
+| Friday    | $5$   | Five-day   |
+| Saturday  | $6$   | Sixtur-day |
+| Sunday    | $0$   | None-day   |
 
 :::info Example
 
 **Jul 27, 1987**
 
-1. Anchor day for the century (**1900s**) = **3** (**Wednesday**)
-2. Anchor day for the year (**1987**) = **6** (**Saturday**)
+1. Anchor day for the century ($1900s$) = $3$ (**Wednesday**)
+2. Anchor day for the year ($1987$) = $6$ (**Saturday**)
 3. Nearest doomsday to Jul 27 is **Jul 11** = **Saturday** (from step 2).
 
    **July 25** = **July 11+7+7** = **Saturday**
@@ -75,14 +75,14 @@ Anchor = $5\times(c\mod 4)\mod 7$ + Tuesday
 
 | Value of $c\mod 4$ | Anchor    |
 | ------------------ | --------- |
-| 0                  | Tuesday   |
-| 1                  | Sunday    |
-| 2                  | Friday    |
-| 3                  | Wednesday |
+| $0$                | Tuesday   |
+| $1$                | Sunday    |
+| $2$                | Friday    |
+| $3$                | Wednesday |
 
-:::info Example
+:::info Example:
 
-**1700s**
+**1700-1799**
 
 $17\mod 4 = 1 \implies$ **Sunday**
 
@@ -105,7 +105,6 @@ Mnemonics for recent centuries:
 
 - 1900s: **We-in-dis-day** (most living people were born in that century)
 - 2000s: **Twos-day** or **Y-Tue-K**
-- 2100s: **Twenty-one-day is Sunday** (2100 is the start of the next century)
 
 ### Finding the anchor day for the year
 
@@ -141,9 +140,10 @@ Each common year advances the anchor day by one day. Each leap year advances it 
 :::
 
 :::info Example
+
 **1987**
 
-Let $a = 3$
+$a = 3$
 
 $b = \left\lfloor\frac{87}{12}\right\rfloor = 7$
 
@@ -151,7 +151,7 @@ $c = 87\mod 12 = 3$
 
 $d = \left\lfloor\frac{3}{4}\right\rfloor = 0$
 
-Anchor = $(3+7+3+0)\mod 7 = 13\mod 7 = 6$ = **Saturday**
+Anchor = $(3+7+3+0)\mod 7 = 13\mod 7 = 6$ (**Saturday**)
 
 It can be useful to use your index, middle, and ring fingers and the pinkie to store the values for $a$, $b$, $c$, and $d$ respectively during mental calculations.
 
@@ -248,3 +248,11 @@ Steps:
   $$15+20+35+55+90+145+\underline\textbf{235}+380+615+995$$
 
   $$=235\times11=2585$$
+
+- Monty Hall Problem [[\*](https://en.wikipedia.org/wiki/Monty_Hall_problem), [\*](https://www.youtube.com/watch?v=TVq2ivVpZgQ)]
+- Collatz conjecture / Hailstone sequence / $3n + 1$ problem [[\*](https://en.wikipedia.org/wiki/Collatz_conjecture)]
+- Look-and-say sequence [[\*](https://en.wikipedia.org/wiki/Look-and-say_sequence)]
+
+  $1$, $11$, $21$, $1211$, $111221$, $312211$, $13112221$, $1113213211$, ...
+
+- Belphegor's Prime: $1000000000000066600000000000001$ [[\*](https://en.wikipedia.org/wiki/Belphegor%27s_prime)]

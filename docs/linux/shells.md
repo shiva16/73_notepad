@@ -6,7 +6,7 @@ title: Shells
 ## bash
 
 ```shell
-<C-r> # reverse-i-search
+<Ctrl-r> # reverse-i-search
 set -o vi # Enable vi mode in Bash
 ```
 
@@ -57,7 +57,7 @@ take <dir_name> # Create a new directory `dir_name` and changes to it
 autoload zmv
 zmv -n '(*).log' '$1.txt' # Preview the result of a move without making any actual changes
 
-<C-q>
+<Ctrl-q>
 # "Parks" the command you're currently typing and takes you back to the prompt,
 # letting you start over and type another command. Once you run that other command,
 # the original command is un-parked and refills the command line.

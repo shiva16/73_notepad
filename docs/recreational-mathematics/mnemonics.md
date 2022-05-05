@@ -5,8 +5,7 @@ title: Mnemonics
 
 ## Morse code
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Morse_code_mnemonics#English)
-- [Vsauce](https://www.youtube.com/watch?v=HY_OIwideLg)
+[[\*](https://en.wikipedia.org/wiki/Morse_code_mnemonics#English), [\*](https://www.youtube.com/watch?v=HY_OIwideLg)]
 
 ### Alphabets
 
@@ -69,7 +68,7 @@ title: Mnemonics
 
 ## Major system
 
-- [Wikipedia](https://en.wikipedia.org/wiki/Mnemonic_major_system)
+[[\*](https://en.wikipedia.org/wiki/Mnemonic_major_system)]
 
 | Numeral | Associated letters |
 | ------- | ------------------ |
@@ -83,3 +82,9 @@ title: Mnemonics
 | 8       | f, v, ph           |
 | 9       | p, b               |
 | 0       | z, s, soft c       |
+
+## NATO phonetic alphabet
+
+[[\*](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet)]
+
+Alfa, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliett, Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango, Uniform, Victor, Whiskey, X-ray, Yankee, Zulu

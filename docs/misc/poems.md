@@ -19,6 +19,8 @@ title: Poems
 - [I Met A Genius](#)
 - [So, You Want To Be A Writer](#)
 - [8 count](https://www.poetryfoundation.org/poems/49699/8-count)
+- [16-bit Intel 8088 chip](https://allpoetry.com/16-bit-Intel-8088-chip)
+- [Bluebird](https://allpoetry.com/poem/8509539-Bluebird-by-Charles-Bukowski)
 
 ## Rudyard Kipling
 
@@ -33,3 +35,4 @@ title: Poems
 - [Ozymandias](https://www.poetryfoundation.org/poems/46565/ozymandias) (1977) - Percy Bysshe Shelley
 - [Jabberwocky](https://en.wikipedia.org/wiki/Jabberwocky) (1871) - Lewis Carroll
 - [The Quiet World](https://www.poetryfoundation.org/poems/49238/the-quiet-world) (1998) - Jeffrey McDaniel
+- [Catullus 16](https://en.wikipedia.org/wiki/Catullus_16) - Gaius Valerius Catullus

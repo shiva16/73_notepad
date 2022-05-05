@@ -1,6 +1,7 @@
 ---
 id: linux
 title: Linux
+slug: /linux
 ---
 
 ## Some useful commands
@@ -51,6 +52,25 @@ cat /proc/$$/cmdline
 ps -p $$
 ps -p $$ -oargs=
 ps -p $$ -ocomm=
+
+# Count number of lines in a file
+cat <file> | wc -l # or one of these
+cat <file> | nl -ba
+grep -c ".*" <file>
+sed -n '$=' <file>
+awk 'END{print NR}' <file>
+cat -n <file> | tail -n 1 | cut -f1
+
+# Find your IP address
+# Private IP
+hostname -I # or one of these
+ip addr
+ifconfig
+# Public IP
+curl -s https://icanhazip.com
+wget -qO- https://checkip.amazonaws.com
+host myip.opendns.com resolver1.opendns.com | grep "myip.opendns.com has" | awk '{print $4}'
+dig +short myip.opendns.com @resolver1.opendns.com
 ```
 
 - Find and replace all occurences of a string/pattern in text files in a directory recursively [[\*](https://stackoverflow.com/a/1585189)]
@@ -122,8 +142,7 @@ sudo service network-manager start
 
 ## Desktop entry template
 
-- [Desktop entries - ArchWiki](https://wiki.archlinux.org/index.php/Desktop_entries)
-- [Desktop Entry Specification - freedesktop.org](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
+[[\*](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys), [\*](https://wiki.archlinux.org/index.php/Desktop_entries)]
 
 Example .desktop file:
 
@@ -398,7 +417,11 @@ Print a sequence of numbers.
   - `ip addr`: Display IP addresses and property information.
 - `ss`: Investigate sockets.
 
-## Miscellaneous
+## Easter eggs
+
+- `calendar -f /usr/share/calendar/calendar.lotr -A 365`
+
+## Misc
 
 - Drop into a tty (tty3): `Ctrl + Alt + F3`
 - Move between different ttys: `Alt + Left/Right`

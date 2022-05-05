@@ -30,28 +30,17 @@ module.exports = {
           label: 'Notes',
         },
         {
-          type: 'doc',
-          docId: 'books/python-tricks/introduction',
-          position: 'left',
-          label: 'Book notes',
+          href: 'https://rsapkf.xyz/',
+          label: 'Homepage',
+          position: 'right',
         },
-        {
-          to: 'about/',
-          label: 'About',
-          position: 'left',
-        },
-        { href: 'https://rsapkf.xyz/blog/', label: 'Blog', position: 'right' },
         {
           type: 'dropdown',
           label: 'Links',
           position: 'right',
           items: [
             {
-              label: 'Homepage',
-              href: 'https://rsapkf.xyz/',
-            },
-            {
-              label: 'Linkroll',
+              label: 'Links',
               href: 'https://links.rsapkf.xyz/',
             },
             {
@@ -84,35 +73,39 @@ module.exports = {
           items: [
             {
               label: 'sed',
-              to: 'docs/linux/sed/',
+              to: '/linux/sed/',
             },
             {
               label: 'awk',
-              to: 'docs/linux/awk/',
+              to: '/linux/awk/',
             },
             {
               label: 'jq',
-              to: 'docs/linux/jq/',
+              to: '/linux/jq/',
             },
             {
               label: 'fzf',
-              to: 'docs/linux/fzf/',
+              to: '/linux/fzf/',
             },
             {
               label: 'PGP',
-              to: 'docs/linux/pgp/',
+              to: '/linux/pgp/',
             },
             {
               label: 'Speedcubing',
-              to: 'docs/recreational-mathematics/speedcubing/',
+              to: '/recreational-mathematics/speedcubing/',
+            },
+            {
+              label: 'Chess',
+              to: '/recreational-mathematics/chess/',
             },
             {
               label: 'Mnemonics',
-              to: 'docs/recreational-mathematics/mnemonics/',
+              to: '/recreational-mathematics/mnemonics/',
             },
             {
               label: 'Poems',
-              to: 'docs/miscellaneous/poems/',
+              to: '/misc/poems/',
             },
           ],
         },
@@ -121,41 +114,29 @@ module.exports = {
           items: [
             {
               label: 'Linux',
-              to: 'docs/linux/linux/',
+              to: '/linux/',
             },
             {
               label: 'Programming',
-              to: 'docs/programming/python/',
+              to: '/programming/python/',
             },
             {
               label: 'Recreational mathematics',
-              to: 'docs/recreational-mathematics/speedcubing/',
+              to: '/recreational-mathematics/speedcubing/',
             },
             {
-              label: 'Privacy',
-              to: 'docs/privacy/privacy/',
+              label: 'Misc',
+              to: '/misc/websites',
+            },
+            {
+              label: 'Book notes',
+              to: '/books/python-tricks',
             },
           ],
         },
         {
-          title: 'Etc.',
+          title: 'Etc',
           items: [
-            {
-              label: 'All notes',
-              to: 'docs/linux/linux/',
-            },
-            {
-              label: 'Book notes',
-              to: 'docs/books/python-tricks/introduction/',
-            },
-            {
-              label: 'Source',
-              href: 'https://github.com/rsapkf/73/',
-            },
-            {
-              label: 'Dotfiles',
-              href: 'https://github.com/rsapkf/config/',
-            },
             {
               label: '?',
               href: 'https://math.dartmouth.edu/~carlp/sheldon02132019.pdf',
@@ -174,19 +155,13 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/rsapkf/73/blob/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/rsapkf/73/blob/main/',
-          feedOptions: {
-            type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} rsapkf`,
-          },
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

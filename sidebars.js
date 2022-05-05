@@ -50,6 +50,8 @@ module.exports = {
       items: [
         'recreational-mathematics/speedcubing',
         'recreational-mathematics/mathemagics',
+        'recreational-mathematics/chess',
+        'recreational-mathematics/card-tricks',
         'recreational-mathematics/mathematical-constants',
         'recreational-mathematics/mnemonics',
       ],
@@ -71,26 +73,20 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Privacy',
-      items: ['privacy/privacy', 'privacy/exporting-data'],
-    },
-    {
-      type: 'category',
-      label: 'Miscellaneous',
+      label: 'Misc',
       items: [
-        'miscellaneous/irc',
-        'miscellaneous/websites',
-        'miscellaneous/poems',
-        'miscellaneous/quotes',
-        'miscellaneous/misc',
+        'misc/websites',
+        'misc/rss',
+        'misc/privacy',
+        'misc/poems',
+        'misc/quotes',
+        'misc/misc',
       ],
     },
-  ],
-  books: [
     {
       type: 'category',
-      label: 'Python Tricks',
-      items: ['books/python-tricks/introduction', 'books/python-tricks/notes'],
+      label: 'Book notes',
+      items: ['books/python-tricks'],
     },
   ],
 };

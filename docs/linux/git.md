@@ -64,7 +64,7 @@ git commit --amend -m "New commit message" # Edit the last commit message
 
 - Amend older or multiple commit messages
 
-  - Display a list of the last n commits in the default text editor
+  - Display a list of the last n commits in the default text editor:
 
     ```shell
     git rebase -i HEAD~n
@@ -72,7 +72,7 @@ git commit --amend -m "New commit message" # Edit the last commit message
 
   - Replace `pick` with `reword` before each commit message you want to change, save and close the commit list file.
   - In each resulting commit file, type the new commit message, save the file, and close it.
-  - Push the amended commits.
+  - Push the amended commits:
 
     ```shell
     git push --force

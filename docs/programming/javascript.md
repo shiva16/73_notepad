@@ -5,18 +5,45 @@ title: JavaScript
 
 ## Utils
 
-- Get random item from an array
+```javascript
+// Copy string to clipboard
+const copyToClipboard = (str) => navigator.clipboard.writeText(str);
+
+// Capitalize a string
+const capitalize = (str) => str.replace(/^\w/, (c) => c.toUpperCase());
+// or
+// str.charAt(0).toUpperCase() + string.slice(1);
+
+// Reverse a string
+const reverseString = (str) => [...str].reverse().join('');
+
+// Get random item from an array
+const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+// Get unique values from an array
+const getUniqueValues = (arr) => [...new Set(arr)];
+
+// Get sum of numbers in an array
+const getSum = (arr) => arr.reduce((a, b) => a + b);
+
+// Get average of numbers in an array
+const getAverage = (arr) => arr.reduce((a, b) => a + b) / arr.length;
+```
+
+- Shuffle an array [[\*](https://stackoverflow.com/a/12646864/16542541)]
 
   ```javascript
-  arr[Math.floor(Math.random() * arr.length)];
-  ```
+  // Durstenfeld shuffle
+  // Shuffles array in-place
+  const shuffleArray = (arr) => {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+  };
 
-- Capitalize a string
-
-  ```javascript
-  const capitalize = (string) => string.replace(/^\w/, (c) => c.toUpperCase());
-  // or
-  // string.charAt(0).toUpperCase() + string.slice(1)
+  // Simple shuffle (Not properly distributed and inefficient)
+  // arr.sort(() => (0.5 - Math.random());
   ```
 
 - Format a date string [[Intl.DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat), [toLocaleDateString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)]
@@ -72,18 +99,6 @@ title: JavaScript
     seconds = seconds < 10 ? `0${seconds}` : seconds;
 
     return `${hours}:${minutes}:${seconds}`;
-  };
-  ```
-
-- Copy text to clipboard
-
-  ```javascript
-  const copyToClipboard = async (text) => {
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch (error) {
-      throw new Error('Cannot copy');
-    }
   };
   ```
 

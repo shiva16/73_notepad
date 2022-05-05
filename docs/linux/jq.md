@@ -119,7 +119,7 @@ Use **`.[<index>]`** filter to index arrays.
 ```shell
 > curl <API> | jq '.[0]'
 {
-  "id": "1234567890",
+  "id": "1",
   "name": "Professor Fansworth",
   "catch_phrase": "Good news, everyone!",
   ...
@@ -138,13 +138,13 @@ Using the **`.[]`** filter will return all of the elements of an array **as sepa
 ```shell
 > curl <API> | jq '.[]'
 {
-  "id": "1234567890",
+  "id": "1",
   "name": "Professor Fansworth",
   "catch_phrase": "Good news, everyone!",
   ...
 }
 {
-  "id": "1234567891",
+  "id": "2",
   "name": "Hermes Conrad",
   "catch_phrase": "Sweet lamprey of Santa Fe!",
   ...

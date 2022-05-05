@@ -41,27 +41,9 @@ title: Quotes
 
 ## Novels, books, movies, TV shows
 
-### [Pale Blue Dot](https://en.wikipedia.org/wiki/PaleBlueDot)
-
-> Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam.
->
-> The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.
->
-> Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
->
-> The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
->
-> It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.
-
 ### Star Trek
 
-- [Where no man has gone before](https://en.wikipedia.org/wiki/Wherenomanhasgonebefore)
-
-  > Space: the final frontier. These are the voyages of the starship Enterprise. **Its five-year mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man has gone before!
-
-- In [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/StarTrek:TheNextGeneration)
-
-  > Space: the final frontier. These are the voyages of the starship Enterprise. **Its continuing mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!
+> Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before! [[\*](https://en.wikipedia.org/wiki/Wherenomanhasgonebefore)]
 
 #### Spock
 
@@ -101,9 +83,7 @@ title: Quotes
 
 #### Super Colonel Sarge
 
-- In [Red vs. Blue S12E12 "The Reunion"](https://youtu.be/9pfGQ5msrrU?t=102)
-
-  > We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled.
+> We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled. [[\*](https://www.youtube.com/watch?v=9pfGQ5msrrU&t=102s)]
 
 ### The IT Crowd
 
@@ -125,6 +105,16 @@ title: Quotes
 
 > Somewhere, something incredible is waiting to be known.
 
+> Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam.
+>
+> The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.
+>
+> Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+>
+> The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
+>
+> It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known. [[Pale Blue Dot](<https://en.wikipedia.org/wiki/Pale_Blue_Dot_(book)>)]
+
 ### Richard Feynman
 
 > Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.
@@ -145,13 +135,13 @@ title: Quotes
 
 ### Douglas Adams
 
-- In [The Long Dark Tea-Time of the Soul, Dirk Gently #2](https://en.wikipedia.org/wiki/TheLongDarkTea-TimeoftheSoul)
-
-  > I may not have gone where I intended to go, but I think I have ended up where I needed to be.
+> I may not have gone where I intended to go, but I think I have ended up where I needed to be. [[The Long Dark Tea-Time of the Soul, Dirk Gently #2](https://en.wikipedia.org/wiki/TheLongDarkTea-TimeoftheSoul)]
 
 ### Mark Twain
 
 > It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt.
+
+> When I was a boy of 14, my father was so ignorant I could hardly stand to have the old man around. But when I got to be 21, I was astonished at how much the old man had learned in seven years.
 
 ### Edgar Allan Poe
 
@@ -171,17 +161,23 @@ title: Quotes
 
 ### Michael Stevens (Vsauce)
 
-> I'm gonna do what's called a pro gamer move. [[\*](https://youtu.be/ewAHYVzMobw?t=785)]
+> I'm gonna do what's called a pro gamer move. [[\*](https://www.youtube.com/watch?v=ewAHYVzMobw&t=785s)]
 
 ### TheReportOfTheWeek
 
-> My disappointment is immeasurable, and my day is ruined. [[\*](https://youtu.be/5d5NJgO38AE?t=366)]
+> My disappointment is immeasurable, and my day is ruined. [[\*](https://www.youtube.com/watch?v=5d5NJgO38AE&t=366s)]
 
 ### Ward Cunningham
 
-- [Cunnigham's Law](https://en.wikipedia.org/wiki/Ward_Cunningham#%22Cunningham's_Law%22)
+> The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer. [[Cunnigham's Law](https://en.wikipedia.org/wiki/Ward_Cunningham#%22Cunningham's_Law%22)]
 
-  > The best way to get the right answer on the Internet is not to ask a question; it's to post the wrong answer.
+### Erik Naggum
+
+> Life is hard, and then you die.
+
+> People search for the meaning of life, but this is the easy question: we are born into a world that presents us with many millennia of collected knowledge and information, and all our predecessors ask of us is that we not waste our brief life ignoring the past only to rediscover or reinvent its lessons badly.
+
+> The secret to feeling great about yourself is not to be found in searching for people who are less than you and then show yourself superior to them, but in searching for people who are more than you and then show yourself worthy of their company.
 
 ---
 

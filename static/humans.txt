@@ -1,5 +1,0 @@
-/* Created by */
-   keybase.io/rsapkf
-
-/* Tech stack */
-   Docusaurus, Algolia DocSearch

@@ -18,7 +18,7 @@ find /path -type f -name '*.js' | xargs rm
 # Find all files ending in `.js` in `/path` and remove them
 
 find . -name '*.py' | xargs wc -l
-# Recursively find Python files and count them
+# Recursively find Python files and count number of lines in them
 
 find . -name '*.json' | xargs grep 'user'
 # Recursively find JSON files and search them for `user`

@@ -3,7 +3,7 @@ id: grep
 title: g/re/p
 ---
 
-## grep
+## `grep`
 
 ### Basics
 
@@ -54,7 +54,7 @@ grep . * # cat a bunch of files
   grep -v -f file1 file2
   ```
 
-## ripgrep
+## `ripgrep`
 
 ```shell
 rg -S 'string' # Case-insentive search
